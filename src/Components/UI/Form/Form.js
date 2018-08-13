@@ -12,7 +12,7 @@ const Form = () => {
   return (
     <React.Fragment>
       <h5 style={{textAlign: 'center'}}>Please fill out the form below and I'll get back to you as soon as possible!</h5>
-      <form action="https://formspree.io/dennis.nathan@gmail.com" method="POST" id="contactForm">
+      <form action="https://formspree.io/nathanejbrown@gmail.com" method="POST" id="contactForm">
         <TextField
             style={styles}
             id="name"

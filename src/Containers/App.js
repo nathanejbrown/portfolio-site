@@ -44,7 +44,7 @@ class App extends Component {
       },
       {
         skillType: 'Tools',
-        skillsArray: ['React', 'AngularJS', 'Boostrap', 'Materialize', 'Google Material Design', 'Node.js', 'Express', 'PostgreSQL', 'jQuery', 'git/Github', 'AJAX', 'Heroku', 'RESTful APIs']
+        skillsArray: ['React', 'Redux', 'AngularJS', 'Boostrap', 'Materialize', 'Google Material Design', 'Node.js', 'Express', 'PostgreSQL', 'jQuery', 'git/Github', 'AJAX', 'Heroku', 'RESTful APIs']
       },
       {
         skillType: 'Other',
