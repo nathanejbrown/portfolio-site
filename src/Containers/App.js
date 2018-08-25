@@ -40,7 +40,7 @@ class App extends Component {
     skillsList: [
       {
         skillType: 'Languages',
-        skillsArray: ['HTML', 'CSS', 'JavaScript']
+        skillsArray: ['HTML', 'CSS', 'JavaScript', 'Python']
       },
       {
         skillType: 'Tools',
