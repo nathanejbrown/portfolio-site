@@ -5,7 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import classes from './Toolbar.css';
 
-import resume from '../../assets/Resume.pdf';
+import resume from '../../assets/Nathan-Dennis-Resume.pdf';
 
 const toolbar = (props) => {
 
