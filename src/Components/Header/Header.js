@@ -3,11 +3,11 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
-import classes from './Toolbar.css';
+import classes from './Header.css';
 
 import resume from '../../assets/Nathan-Dennis-Resume.pdf';
 
-const toolbar = (props) => {
+const header = (props) => {
 
   return (
     <React.Fragment>
@@ -35,4 +35,4 @@ const toolbar = (props) => {
 
 }
 
-export default toolbar;
+export default header;

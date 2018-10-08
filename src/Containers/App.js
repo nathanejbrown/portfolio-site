@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 // import Button from '@material-ui/core/Button';
 
-import Toolbar from '../Components/Toolbar/Toolbar';
+import Header from '../Components/Header/Header';
 import BackgroundImage from '../Components/BackgroundImage/BackgroundImage';
 import CenterBox from '../Components/CenterBox/CenterBox';
 import Projects from '../Components/Projects/Projects';
@@ -10,6 +10,7 @@ import TitleRow from '../Components/TitleRow/TitleRow';
 import Skills from '../Components/Skills/Skills';
 import Modal from '../Components/UI/Modal/Modal';
 import Form from '../Components/UI/Form/Form';
+import Footer from '../Components/Footer/Footer';
 
 class App extends Component {
 
@@ -69,7 +70,7 @@ class App extends Component {
         <Modal show={this.state.contacting} modalClosed={this.contactHideHandler}>
           <Form />
         </Modal>
-        <Toolbar showForm={this.contactShowHandler}/>
+        <Header showForm={this.contactShowHandler}/>
         <BackgroundImage background="Albuquerque">
           <CenterBox>
             <h1>Nathan Dennis</h1>
@@ -89,6 +90,7 @@ class App extends Component {
         <BackgroundImage background="Boston">
           <Skills skillsList={this.state.skillsList} />
         </BackgroundImage>
+        <Footer showForm={this.contactShowHandler}/>
       </React.Fragment>
   );
   }
