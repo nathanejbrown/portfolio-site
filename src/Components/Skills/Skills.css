@@ -1,13 +1,7 @@
 .AllSkills {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-@media (max-width: 800px) {
-  .AllSkills {
-    flex-direction: column;
-    align-items: center;
-  }
 }

@@ -1,5 +1,5 @@
 .BackgroundImage {
-  height: 92vh;
+  min-height: 92vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,7 @@
   background-image: url('../../assets/Images/Boston.jpg');
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   .BackgroundImage {
     height: auto;
     min-height: 95vh;
