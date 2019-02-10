@@ -24,15 +24,15 @@ class App extends Component {
         deployedUrl: 'https://nathanejbrown.github.io/beerleagueme'
       },
       {
-        title: 'Burger Builder',
-        description: 'This is an ongoing project that I\'m working on as I continue to learn React.',
-        technologies: ['JavaScript', 'React', 'Axios'],
-        githubUrl: 'https://github.com/nathanejbrown/Burger-Builder',
-        deployedUrl: 'https://nathanejbrown.github.io/Burger-Builder'
+        title: 'Running Blog',
+        description: 'This is an ongoing project that is a one-stop shop for runners to learn about gear, read blog posts, and connect with each other.',
+        technologies: ['JavaScript', 'React', 'Axios', 'Node.js', 'Express', 'PostgreSQL'],
+        githubUrl: 'https://github.com/nathanejbrown/running-blog',
+        deployedUrl: 'https://nathanejbrown.github.io/running-blog'
       },
       {
         title: 'Tribbianify',
-        description: 'This was a project I did for fun that’s based on an episode of Friends where Joey uses a thesaurus on every word in a letter he’s writing to make it sound more intelligent.',
+        description: 'This was my first quarter project at Galvanize, it finds a synonym for every word in the user\'s input.',
         technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'AJAX'],
         githubUrl: 'https://github.com/nathanejbrown/q1Project',
         deployedUrl: 'https://nathanejbrown.github.io/q1Project'
