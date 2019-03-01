@@ -5,7 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import classes from '../Header/Header.css';
 
-import resume from '../../assets/Nathan-Dennis-Resume.pdf';
+import resume from '../../assets/Nathan-Brown-Resume-copy.pdf';
 
 const footer = (props) => {
 
@@ -15,7 +15,7 @@ const footer = (props) => {
           <Toolbar className={classes.Toolbar}>
             <div className={classes.RightBorder}>
               <h2>
-                <a href="/">Nathan Dennis</a>
+                <a href="/">Nathan Brown</a>
               </h2>
             </div>
             <div className={classes.row}>

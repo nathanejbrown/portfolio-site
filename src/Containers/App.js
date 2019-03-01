@@ -73,7 +73,7 @@ class App extends Component {
         <Header showForm={this.contactShowHandler}/>
         <BackgroundImage background="Albuquerque">
           <CenterBox>
-            <h1>Nathan Dennis</h1>
+            <h1>Nathan Brown</h1>
             <hr />
             <h2>Full Stack Developer</h2>
           </CenterBox>
